@@ -15,7 +15,7 @@ func _ready() -> void:
 	Input.mouse_mode = Input.MOUSE_MODE_CAPTURED
 
 func _input(event: InputEvent) -> void:
-	
+
 	var new_movement_vec = Vector2(
 		Input.get_action_strength("left") - Input.get_action_strength("right"),
 		Input.get_action_strength("forward") - Input.get_action_strength("back")
