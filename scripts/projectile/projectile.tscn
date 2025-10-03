@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbhw83b3r36t8"]
+
+[ext_resource type="Script" uid="uid://c4yyk4lhnq6v5" path="res://scripts/projectile/projectile.gd" id="1_qkvqn"]
+
+[sub_resource type="SphereShape3D" id="SphereShape3D_5l8d3"]
+radius = 0.29565358
+
+[node name="Projectile" type="RigidBody3D"]
+script = ExtResource("1_qkvqn")
+
+[node name="Sprite3D" type="Sprite3D" parent="."]
+billboard = 1
+texture_filter = 0
+
+[node name="CollisionShape3D" type="CollisionShape3D" parent="."]
+shape = SubResource("SphereShape3D_5l8d3")

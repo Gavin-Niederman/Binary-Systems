@@ -1,0 +1,11 @@
+[gd_resource type="Resource" script_class="ProjectileInfo" load_steps=3 format=3 uid="uid://crkmrm5cntrlx"]
+
+[ext_resource type="Script" uid="uid://cv2ta35l68m2" path="res://scripts/projectile/projectile_info.gd" id="1_dduny"]
+[ext_resource type="Texture2D" uid="uid://cdao6cte5bb6y" path="res://textures/projectiles/fireball.png" id="2_jbfh5"]
+
+[resource]
+script = ExtResource("1_dduny")
+texture = ExtResource("2_jbfh5")
+speed = 10.0
+gravity = 1.0
+metadata/_custom_type_script = "uid://cv2ta35l68m2"

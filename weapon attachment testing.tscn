@@ -1,0 +1,14 @@
+[gd_scene load_steps=3 format=3 uid="uid://dl6jmha4o34hm"]
+
+[ext_resource type="Script" uid="uid://buvfhbn66cj80" path="res://weapon_attachment_testing.gd" id="1_45ja2"]
+[ext_resource type="Script" uid="uid://nmintpnljeld" path="res://scripts/projectile/projectile_spawner.gd" id="2_qdvtg"]
+
+[node name="WeaponAttachmentTesting" type="Node3D"]
+script = ExtResource("1_45ja2")
+
+[node name="ProjectileSpawner" type="Node3D" parent="."]
+script = ExtResource("2_qdvtg")
+metadata/_custom_type_script = "uid://nmintpnljeld"
+
+[node name="Camera3D" type="Camera3D" parent="."]
+transform = Transform3D(0.99949336, -3.259332e-10, -0.03182934, 0.031806704, 0.037707705, 0.9987825, 0.0012002109, -0.99928886, 0.0376886, 0, 1.1839623, 0)
